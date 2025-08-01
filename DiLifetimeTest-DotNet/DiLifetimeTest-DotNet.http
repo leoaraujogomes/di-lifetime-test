@@ -1,0 +1,6 @@
+@DiLifetimeTest_DotNet_HostAddress = http://localhost:5068
+
+GET {{DiLifetimeTest_DotNet_HostAddress}}/api/lifetime/
+Accept: application/json
+
+###

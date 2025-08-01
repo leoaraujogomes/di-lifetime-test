@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiLifetimeTest-DotNet", "DiLifetimeTest-DotNet\DiLifetimeTest-DotNet.csproj", "{284D16BA-EC97-4E14-BD74-24F55273D0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{284D16BA-EC97-4E14-BD74-24F55273D0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284D16BA-EC97-4E14-BD74-24F55273D0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284D16BA-EC97-4E14-BD74-24F55273D0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284D16BA-EC97-4E14-BD74-24F55273D0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0F4B440-A6C8-4C50-A574-32357892E060}
+	EndGlobalSection
+EndGlobal
