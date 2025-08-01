@@ -67,7 +67,6 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 | `/api/lifetime/scoped` | GET | Demonstrates **Scoped** lifetime |
 | `/api/lifetime/singleton` | GET | Demonstrates **Singleton** lifetime |
 | `/api/lifetime/all` | GET | Compares **all lifetimes** in one response |
-| `/info` | GET | Project information and usage guide |
 
 ## 📊 Expected Results
 
@@ -106,7 +105,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 
 ## 🧪 How to Test
 
-1. **Open Swagger UI** at `http://localhost:5000`
+1. **Open Swagger UI** at `http://localhost:5068`
 2. **Test each endpoint** multiple times
 3. **Compare the returned IDs**:
    - **Transient**: Always different IDs
