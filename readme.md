@@ -33,7 +33,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 ## 🚀 Getting Started
 
 ### Prerequisites
-- [.NET 8.0](https://dotnet.microsoft.com/download) or later
+- [.NET 8.0](https://dotnet.microsoft.com/download)
 - [Git](https://git-scm.com/)
 
 ### Installation & Running
@@ -41,6 +41,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 1. **Clone the repository**
    ```bash
    git clone https://github.com/leoaraujogomes/di-lifetime-test.git
+   cd di-lifetime-test
    cd DiLifetimeTest-DotNet
    ```
 
