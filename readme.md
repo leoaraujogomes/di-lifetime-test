@@ -40,7 +40,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/leoaraujogomes/DiLifetimeTest-DotNet.git
+   git clone https://github.com/leoaraujogomes/di-lifetime-test.git
    cd DiLifetimeTest-DotNet
    ```
 
@@ -56,7 +56,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 
 4. **Open Swagger UI**
    ```
-   http://localhost:5000
+   http://localhost:5068/swagger
    ```
 
 ## 🔗 API Endpoints
