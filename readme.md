@@ -66,7 +66,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 | `/api/lifetime/transient` | GET | Demonstrates **Transient** lifetime |
 | `/api/lifetime/scoped` | GET | Demonstrates **Scoped** lifetime |
 | `/api/lifetime/singleton` | GET | Demonstrates **Singleton** lifetime |
-| `/api/lifetime/all` | GET | Compares **all lifetimes** in one response |
+| `/api/lifetime/compare` | GET | Compares **all lifetimes** in one response |
 
 ## 📊 Expected Results
 
@@ -75,8 +75,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 {
   "service1Id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
   "service2Id": "z9y8x7w6-v5u4-3210-fedc-ba0987654321",
-  "type": "Transient",
-  "description": "Each service has a different instance (Different IDs)"
+  "type": "Transient"
 }
 ```
 > ⚠️ **Notice**: `service1Id` ≠ `service2Id` (Always different)
@@ -86,8 +85,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 {
   "service1Id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
   "service2Id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-  "type": "Scoped",
-  "description": "Same instance during the entire HTTP request (Same IDs)"
+  "type": "Scoped"
 }
 ```
 > ✅ **Notice**: `service1Id` = `service2Id` (Same within request)
@@ -97,8 +95,7 @@ builder.Services.AddSingleton<ISingleton, SingletonService>();
 {
   "service1Id": "550e8400-e29b-41d4-a716-446655440000",
   "service2Id": "550e8400-e29b-41d4-a716-446655440000",
-  "type": "Singleton",
-  "description": "Single instance for the entire application (Always same IDs)"
+  "type": "Singleton"
 }
 ```
 > 🎯 **Notice**: `service1Id` = `service2Id` (Always same, even across requests)
